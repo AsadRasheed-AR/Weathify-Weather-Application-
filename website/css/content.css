@@ -1,0 +1,25 @@
+.content {
+    grid-area: 'bn';
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    /* Grey text */
+    padding: 20px;
+    margin: 5px;
+    border-radius: 10px;
+    font-family: 'MuseoModerno', cursive;
+}
+
+/* Headings in center */
+
+.content h3 {
+    text-align: center;
+}
+
+/* Normal Text */
+
+.content p {
+    font-family: 'Roboto Condensed', sans-serif;
+}

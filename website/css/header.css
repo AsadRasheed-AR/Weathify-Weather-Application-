@@ -1,0 +1,53 @@
+#header {
+    grid-area: 'hd';
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px
+}
+
+/* Website Logo Sun Image */
+
+#header img {
+    width: 100px;
+    height: 80px;
+    /* animation-name: spin; */
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Website Name */
+
+#header h1 {
+    font-family: 'MuseoModerno', cursive;
+    margin-top: 10px;
+    color: #008080;
+    margin-top: 25px;
+}
+
+#heading {
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+/* Picture in Website Name */
+
+#logo {
+    margin-left: -40px;
+    margin-right: -40px;
+    margin-bottom: 10px;
+}

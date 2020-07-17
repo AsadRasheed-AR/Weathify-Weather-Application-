@@ -1,0 +1,46 @@
+@import url(header.css);
+@import url(content.css);
+@import url(article.css);
+@import url(footer.css);
+@import url(modal.css);
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+    grid-template-areas: 'hd' 'bn' 'bo' 'ft';
+    grid-gap: 10px;
+    min-width: 370px;
+    min-height: 660px;
+    background-color: #66CDAA;
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 16px 32px;
+    margin: 4px 2px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.2em;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+
+.button1 {
+    background-color: #4CAF50;
+    color: white;
+}
